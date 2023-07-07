@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 :root {
   --main-color: #2f241f;
@@ -68,27 +68,26 @@ body {
 }
 
 .btn-icon {
-  background-color: #553B33;
-  color: #E5F1B5;
+  background-color: #553b33;
+  color: #e5f1b5;
 }
 
 .header-links {
   display: flex;
   flex-direction: row;
-  gap: 30px
+  gap: 30px;
 }
 
 .header-links a {
   font-size: 14px;
   font-weight: 500;
   text-decoration: none;
-  color: #000
+  color: #000;
 }
 
 .hero {
   width: 100vw;
   display: flex;
-  height: 175px;
 }
 
 .hero-desc-container {
@@ -108,7 +107,7 @@ body {
 
 .hero-desc h1 {
   font-size: 64px;
-  color: #2F241F;
+  color: #2f241f;
 }
 
 .hero-desc h1 span {
@@ -129,13 +128,13 @@ body {
 }
 
 .btn-search {
-  background-color: #E5F0B6;
-  color: #553B33;
+  background-color: #e5f0b6;
+  color: #553b33;
 }
 
 .btn-watch {
-  border: 1px solid #553B33;
-  color: #553B33;
+  border: 1px solid #553b33;
+  color: #553b33;
   background-color: transparent;
 }
 
@@ -177,7 +176,7 @@ body {
 .hero-img-btn {
   width: fit-content;
   padding: 12px 18px;
-  background-color: #2F241F;
+  background-color: #2f241f;
   color: #fff;
   border: none;
   border-radius: 8px;
@@ -185,9 +184,43 @@ body {
 }
 
 .badge {
-  background: #FFFFFF80;
+  background: #ffffff80;
   padding: 6px 8px;
   width: fit-content;
   border-radius: 8px;
-  color: #2F241F;
+  color: #2f241f;
+}
+
+.super {
+  width: 100vw;
+  display: flex;
+  /* height: px; */
+  background-color: #2f241f;
+}
+
+.big-font {
+  font-size: 48px;
+}
+
+.super-wrapper {
+  margin: 50px auto;
+  display: flex;
+  color: #e5f0b6;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.super-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.partner-wrapper {
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.partner-brand {
+  display: flex;
+  gap: 100px;
 }
