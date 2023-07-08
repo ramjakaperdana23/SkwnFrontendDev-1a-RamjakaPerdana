@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 :root {
   --main-color: #2f241f;
   --second-color: #553b33;
   --third-color: #e5f0b6;
 
-  --main-font: 'Inter', sans-serif;
+  --main-font: "Inter", sans-serif;
 }
 
 body {
@@ -39,6 +39,14 @@ body {
   height: 65px;
 }
 
+.header-logo {
+  display: flex;
+}
+
+.header-logo div {
+  align-items: center;
+  display: flex;
+}
 .header-logo,
 .header-btn {
   width: 150px;
@@ -432,7 +440,7 @@ footer {
 }
 
 .footer-left .logo {
-  color: #2F241F;
+  color: #2f241f;
   font-weight: bold;
   font-size: 18px;
 }
