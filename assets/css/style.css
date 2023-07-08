@@ -39,8 +39,13 @@ body {
   height: 65px;
 }
 
+.header-mobile {
+  display: none;
+}
+
 .header-logo {
   display: flex;
+  gap: 4px;
 }
 
 .header-logo div {
@@ -222,6 +227,12 @@ body {
 .super-info {
   display: flex;
   justify-content: space-between;
+}
+
+.super-icon {
+  padding: 8px 9px;
+  background-color: #E5F0B680;
+  border-radius: 8px;
 }
 
 .partner {
@@ -484,4 +495,93 @@ footer {
   font-weight: 700;
   font-size: 16px;
   color: #000;
+}
+
+@media (max-width: 576px) {
+  .container {
+    width: 90%;
+  }
+
+  .header-links {
+    display: none;
+  }
+
+  .header-btn {
+    display: none;
+  }
+
+  .header-mobile {
+    display: block;
+  }
+
+  .header-mobile i {
+    font-size: 28px;
+  }
+
+  .header-logo h1 {
+    font-size: 24px;
+  }
+
+  .hero {
+    flex-direction: column;
+  }
+
+  .hero-desc {
+    height: 450px;
+  }
+
+  .hero-desc-container {
+    width: 100%;
+    height: fit-content;
+  }
+
+  .hero-desc h1 {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .hero-desc-btn {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .hero-img-container {
+    height: 350px;
+    width: 100%;
+  }
+
+  .hero-img {
+    height: 350px;
+  }
+
+  .hero-img-desc {
+    height: 350px;
+  }
+
+  .hero-img-btn {
+    margin-bottom: 25px;
+  }
+
+  .hero-img-title {
+    font-size: 36px;
+  }
+
+  .super-wrapper h1 {
+    text-align: center;
+    font-size: 28px;
+  }
+
+  .super-info {
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .super-info div {
+    height: 45px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
 }
