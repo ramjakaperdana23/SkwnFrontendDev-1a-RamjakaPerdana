@@ -30,6 +30,10 @@ body {
   opacity: 1 !important;
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
+
 .cursor-not-allowed {
   cursor: not-allowed !important;
 }
