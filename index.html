@@ -22,6 +22,14 @@
           <span>
             <i class="bi bi-list"></i>
           </span>
+          <div class="header-menu-mobile">
+            <a href="#">About Us</a>
+            <a href="#">Furniture&nbsp<i class="bi bi-chevron-down"></i></a>
+            <a href="#">Partnerships</a>
+            <a href="#">Contact</a>
+            <a href="#">Sign Up</a>
+            <a href="#">Basket</a>
+          </div>
         </div>
         <div class="header-links">
           <a href="#">About Us</a>
@@ -155,30 +163,48 @@
         </div>
         <div class="products-img-wrapper">
           <div class="products-img-wrapper-container">
-            <div class="products-img-container">
-              <img class="products-img" src="https://picsum.photos/1920/1080" />
-            </div>
-            <div class="products-img-container">
-              <img class="products-img" src="https://picsum.photos/1920/1080" />
-            </div>
-            <div class="products-img-container active">
+            <div class="products-img-container" img-number="1">
               <img class="products-img" src="https://picsum.photos/1920/1080" />
               <div class="active-text">
                 <span class="badge">$329</span>
                 <h1 class="hero-img-title">Posht Sofa</h1>
               </div>
             </div>
-            <div class="products-img-container">
+            <div class="products-img-container" img-number="2">
               <img class="products-img" src="https://picsum.photos/1920/1080" />
+              <div class="active-text">
+                <span class="badge">$329</span>
+                <h1 class="hero-img-title">Posht Sofa</h1>
+              </div>
             </div>
-            <div class="products-img-container">
+            <div class="products-img-container active" img-number="3">
               <img class="products-img" src="https://picsum.photos/1920/1080" />
+              <div class="active-text">
+                <span class="badge">$329</span>
+                <h1 class="hero-img-title">Posht Sofa</h1>
+              </div>
+            </div>
+            <div class="products-img-container" img-number="4">
+              <img class="products-img" src="https://picsum.photos/1920/1080" />
+              <div class="active-text">
+                <span class="badge">$329</span>
+                <h1 class="hero-img-title">Posht Sofa</h1>
+              </div>
+            </div>
+            <div class="products-img-container" img-number="5">
+              <img class="products-img" src="https://picsum.photos/1920/1080" />
+              <div class="active-text">
+                <span class="badge">$329</span>
+                <h1 class="hero-img-title">Posht Sofa</h1>
+              </div>
             </div>
           </div>
         </div>
         <div class="products-btn-wrapper container">
-          <button><i class="bi bi-chevron-left"></i></button>
-          <button><i class="bi bi-chevron-right"></i></button>
+          <button id="product-previous" class="">
+            <i class="bi bi-chevron-left"></i>
+          </button>
+          <button id="product-next"><i class="bi bi-chevron-right"></i></button>
         </div>
       </div>
 
@@ -234,5 +260,7 @@
         </div>
       </div>
     </footer>
+    <script src="./assets/js/jquery-3.7.0.min.js"></script>
+    <script src="./assets/js/script.js"></script>
   </body>
 </html>
