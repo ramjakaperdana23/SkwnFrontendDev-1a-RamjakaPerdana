@@ -1,6 +1,6 @@
 # Technical Test Front End Developer
 
-Nama: Ramjakan Perdana Sugiharto
+Nama: Ramjaka Perdana Sugiharto
 Posisi yang dilamar: Frontend Developer
 Lama magang: 3 bulan
 
